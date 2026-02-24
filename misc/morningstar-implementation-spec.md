@@ -609,7 +609,7 @@ The animation sequence is **identical** to the Kemper version. Don't change the 
 
 5. **GuidedCallout.jsx has viewport-aware positioning.** It auto-flips above/below based on available space. Don't break this — it's critical for mobile.
 
-6. **The "Book a meeting" modal has no dismiss option.** Only a "Book a meeting →" button. This was intentional. The `href` is `#book` (placeholder for a Calendly URL).
+6. **The follow-up modal shows a contact prompt** — not a "Book a meeting" button. It says "If you're interested in learning more, please contact" and shows the rep's name and email as a `mailto:` link. Update the name/email for the Morningstar rep.
 
 7. **Mobile responsive.** The Kemper build was made fully responsive. Keep all the responsive classes (`hidden md:block`, `sm:`, responsive padding, etc.).
 

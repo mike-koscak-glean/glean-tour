@@ -17,17 +17,23 @@ export default function FollowUpModal() {
         {/* Body */}
         <p className="text-sm text-glean-gray text-center leading-relaxed mb-6">
           In a live Glean environment, you'd get a real answer here — connected
-          to Kemper's actual documents and tools. Let's set up 30 minutes to
-          show you the real thing.
+          to Kemper's actual documents and tools.
         </p>
 
-        {/* Primary CTA — only option */}
-        <a
-          href="#book"
-          className="block w-full bg-glean-blue hover:bg-blue-700 text-white font-medium text-[15px] py-3 rounded-lg transition-colors text-center"
-        >
-          Book a meeting →
-        </a>
+        {/* Contact info */}
+        <p className="text-sm text-glean-text text-center leading-relaxed">
+          If you're interested in learning more, please contact
+        </p>
+        <p className="text-sm font-semibold text-glean-blue text-center mt-1">
+          <a href="mailto:melissa.richards@glean.com" className="hover:underline">
+            Melissa Richards
+          </a>
+        </p>
+        <p className="text-xs text-glean-gray text-center mt-0.5">
+          <a href="mailto:melissa.richards@glean.com" className="hover:underline">
+            melissa.richards@glean.com
+          </a>
+        </p>
       </div>
     </div>
   );
